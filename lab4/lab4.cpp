@@ -5,7 +5,7 @@
 
 cc::cc()
 {
-    cout << "please enter the posative V values, then the negative ones:/n";
+    cout << "please enter the posative V values, then the negative ones:\n";
 
     for (int i = 0; i < dtn; i++)
     {
@@ -19,7 +19,7 @@ cc::cc()
 
 void cc::Vm()
 {
-        cout << "V Data:/n" << endl;
+        cout << "V Data:\n" << endl;
 
     for (int i = 0; i < dtn; i++)
     {
@@ -47,7 +47,7 @@ ecc::ecc(cc r)
 
 void ecc::eVm()
 {
-    cout << "V error Data:/n" << endl;
+    cout << "V error Data:\n" << endl;
 
     for (int i = 0; i < dtn; i++)
     {
