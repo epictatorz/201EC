@@ -14,6 +14,7 @@ cc::cc()
         for (int i = 0; i < dtn; i++)
     {
         cin >> Vn[i];
+        Vn[i] = Vn[i] * -1;
     }
 }
 
