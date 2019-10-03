@@ -3,8 +3,9 @@
 int main()
 {
     cc asdf;
+    ecc qwer;
 
     asdf.Vm();
-
+    qwer.eVm();
 
 }

@@ -8,9 +8,11 @@ using namespace std;
 
 const int dtn = 11;
 
+double Vp[dtn], Vn[dtn], Vd[dtn];
+
 class cc
 {
-    double Vp[dtn], Vn[dtn], Vd[dtn];
+    // double Vp[dtn], Vn[dtn], Vd[dtn];
 
     public:
 
@@ -23,10 +25,12 @@ class cc
 class ecc
 {
     double Vde[];
+    // double Vp[dtn], Vn[dtn], Vd[dtn];
 
     public:
 
-    void eVm(cc x);
+    // ecc(cc r);
+    void eVm();
 };
 
 #endif

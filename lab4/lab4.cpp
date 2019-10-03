@@ -33,13 +33,25 @@ void cc::Vm()
 
     //error
 
-void ecc::eVm(cc r)
+/*
+ecc::ecc(cc r)
+{
+        for (int i = 0; i < dtn; i++)
+    {
+        Vp[i] = r.Vp[i];
+        Vn[i] = r.Vn[i];
+        Vd[i] = r.Vd[i];
+    }
+}
+*/
+
+void ecc::eVm()
 {
     cout << "V error Data:/n" << endl;
 
     for (int i = 0; i < dtn; i++)
     {
-        Vde[i] =pow ((pow (((0 - r.Vn[i]) / 2), 2) * pow (0.0001, 2)) + (pow (((r.Vp[i] - 0) / 2), 2) * pow (0.0001, 2)), 1/2);
+        Vde[i] =pow ((pow (((0 - Vn[i]) / 2), 2) * pow (0.0001, 2)) + (pow (((Vp[i] - 0) / 2), 2) * pow (0.0001, 2)), 1/2);
         cout << endl << Vde[i] << endl;
     }
 }
