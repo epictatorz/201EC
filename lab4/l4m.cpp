@@ -2,5 +2,9 @@
 
 int main()
 {
-    
+    cc asdf;
+
+    asdf.Vm();
+
+
 }

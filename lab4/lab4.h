@@ -10,7 +10,7 @@ const int dtn = 11;
 
 class cc
 {
-    static double Vp[dtn], Vn[dtn], Vd[dtn];
+    double Vp[dtn], Vn[dtn], Vd[dtn];
 
     public:
 
@@ -22,11 +22,11 @@ class cc
 
 class ecc
 {
-    static double Vde[];
+    double Vde[];
 
     public:
 
-    void eVm();
+    void eVm(cc x);
 };
 
 #endif
