@@ -46,13 +46,13 @@ ecc::ecc(cc r)
 }
 */
 
-void ecc::eVm()
+void ecc::eVm()             // partial derivative calculation is incorrect
 {
     cout << "V error Data:\n" << endl;
 
     for (int i = 0; i < dtn; i++)
     {
-        Vde[i] =pow ((pow (((0 - Vn[i]) / 2), 2) * pow (0.0001, 2)) + (pow (((Vp[i] - 0) / 2), 2) * pow (0.0001, 2)), 1/2);
+        Vde[i] =pow((pow(((0 - Vn[i]) / 2), 2) * pow(0.0001, 2)) + (pow (((Vp[i] - 0) / 2), 2) * pow(0.0001, 2)), 0.5);
         cout << endl << Vde[i];
     }
 }
