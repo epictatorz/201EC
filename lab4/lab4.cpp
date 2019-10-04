@@ -53,7 +53,7 @@ void ecc::eVm()
     for (int i = 0; i < dtn; i++)
     {
         Vde[i] =pow ((pow (((0 - Vn[i]) / 2), 2) * pow (0.0001, 2)) + (pow (((Vp[i] - 0) / 2), 2) * pow (0.0001, 2)), 1/2);
-        cout << endl << Vde[i] << endl;
+        cout << endl << Vde[i];
     }
 }
 #endif

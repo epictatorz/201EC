@@ -8,4 +8,6 @@ int main()
     asdf.Vm();
     qwer.eVm();
 
+    return 0;
+
 }
